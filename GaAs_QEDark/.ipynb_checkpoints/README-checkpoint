@@ -1,0 +1,11 @@
+#columns:
+Energy (eV)    1 MeV     3.16 MeV   10 MeV    31.6 MeV     100 MeV   316 MeV    1 GeV
+
+#usage:
+in ipython, use:
+     > %run dm_rates.py
+     > f2 = read_f2('QEDark_GaAs_k8_100Ryd.npy')
+     > E, dR = d_rate(mX, f2, FDM_exp)
+
+Here, mX = choice of DM mass in eV
+FDM_exp = 0, 2 (Heavy med, Light Med)
